@@ -97,7 +97,7 @@ mac_wrapper mac_wrapper(
 );
 
 defparam 
-  mac_wrapper.BOARD_MAC = {8'h7E, 8'h3C, 8'h32, 8'hE7, 8'h48, 8'h51} // place your assigned MAC address here :)
+  mac_wrapper.BOARD_MAC = {8'h7E, 8'h3C, 8'h32, 8'hE7, 8'h48, 8'h51}; // place your assigned MAC address here :)
 
 control main(
   //  sys
